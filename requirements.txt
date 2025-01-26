@@ -52,3 +52,4 @@ pydantic==2.10.0 # proxy + openai req.
 jsonschema==4.22.0 # validating json schema
 websockets==10.4 # for realtime API
 ####
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
